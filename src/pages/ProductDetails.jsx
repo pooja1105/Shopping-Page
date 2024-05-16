@@ -36,10 +36,10 @@ const ProductDetails = () => {
   }
 
   return (
-    <div className="max-w-4xl mx-auto my-10 p-5">
+    <div className="max-w-4xl mx-auto my-40 p-5">
       <div className="flex flex-col md:flex-row gap-10">
         <div className="flex-shrink-0">
-          <img src={product.image} alt={product.title} className="h-64 w-64 object-cover" />
+          <img src={product.image} alt={product.title} className="h-80 w-100 object-cover" />
         </div>
         <div>
           <h1 className="text-2xl font-bold mb-2">{product.title}</h1>
